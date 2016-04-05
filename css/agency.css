@@ -263,7 +263,13 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-header {
+#carousel {
+  width: 109%;
+  margin-top: -5%;
+  margin-left: -5%;
+}
+
+#header1 {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -274,6 +280,10 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+#header2 {
+
 }
 
 header .intro-text {

@@ -1,11 +1,20 @@
 
 //transition effet
 $(window).scroll(function() {
-if ($(this).scrollTop() > 150){
+if ($(this).scrollTop() > 500){
    $('#news').addClass("news");
  }
  else{
      $('#news').removeClass("news");
+ }
+});
+
+$(window).scroll(function() {
+if ($(this).scrollTop() > 500){
+   $('#nouv').addClass("nouv");
+ }
+ else{
+     $('#nouv').removeClass("nouv");
  }
 });
 

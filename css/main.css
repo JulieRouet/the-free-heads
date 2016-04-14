@@ -69,6 +69,25 @@ header {
   margin-left: 0px;
 }
 
+.baleine {
+  height: 300px;
+  width: 600px;
+}
+#nouv{
+   font-family: 'Oswald', sans-serif, arial, sans-serif!important;
+   margin-left: 1000px;
+   margin-top: 2%;
+   display:-moz-box;
+   transition: 8s;
+
+
+ }
+
+#nouv.nouv {
+  margin-top: 5%;
+  margin-left: 20px;
+}
+
 
 .hidden{
      opacity:0;

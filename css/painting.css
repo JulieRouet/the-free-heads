@@ -1,0 +1,91 @@
+
+  /*slider 2*********************************************/
+
+
+
+div#slider {
+  width: 1000px;
+  height: 750px;
+
+  margin-top: 10%;
+}
+
+
+
+div#slider figure {
+  position: relative;
+  width: 5000px;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+}
+
+div#slider figure img {
+   width: 20%; height: auto; float: left;
+ }
+
+   div#slider {
+     width: 1000px;
+     height: 750px; overflow: hidden
+   }
+
+     @keyframes slidy {
+       0% { left: 0%; }
+       20% { left: 0%; }
+       25% { left: -1000px; }
+       45% { left: -1000px; }
+       50% { left: -2000px; }
+       70% { left: -2000px; }
+       75% { left: -3000px; }
+       95% { left: -3000px; }
+       100% { left: -4000px; }
+     }
+
+     div#slider figure {
+       position: relative;
+       width: 5000px;
+       margin: 0;
+       padding: 0;
+       font-size: 0;
+       left: 0;
+       text-align: left;
+       animation: 30s slidy infinite;
+     }
+
+
+.row
+{
+width: 70%;
+margin-left: 15%!important;
+margin-right: 15%!important;
+}
+.img1 {
+  background-color: blue;
+  height: 631px;
+  margin-right: 5px;
+
+
+
+
+
+}
+
+.img2 {
+  background-color: pink;
+  height: 310px;
+
+
+
+}
+
+.img3 {
+  background-color: yellow;
+  height: 310px;
+
+
+}
+.portfolio-item {
+    margin-bottom: 10px;
+
+}

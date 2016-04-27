@@ -9,14 +9,6 @@ if ($(this).scrollTop() > 500){
  }
 });
 
-$(window).scroll(function() {
-if ($(this).scrollTop() > 500){
-   $('#nouv').addClass("nouv");
- }
- else{
-     $('#nouv').removeClass("nouv");
- }
-});
 
 
 //initiate the plugin and pass the id of the div containing gallery images
